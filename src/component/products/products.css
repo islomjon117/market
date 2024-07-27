@@ -1,0 +1,133 @@
+.all_products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.products {
+    margin-top: 60px;
+}
+
+.product_box {
+    width: 340px;
+    height: Fill (383.75px);
+    background-color: var(--grey_btn);
+}
+
+.product_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_title p {
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.products_img {
+    position: relative;
+    width: 100%;
+    max-width: 270px;
+    height: 344px;
+    display: flex;
+    margin-left: 35px;
+    align-items: center;
+}
+
+.products_img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: center;
+    margin-top: 35px;
+    transition: .5s;
+}
+
+.product_name_price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.product_price {
+    margin-right: 15px;
+    color: var(--black);
+}
+
+.producs_title {
+    margin-left: 15px;
+    color: var(--blue);
+    margin-top: 15px;
+}
+
+.product_name {
+    margin-left: 15px;
+    text-decoration: underline;
+}
+
+.product_box button {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    opacity: 0;
+    margin-top: 24px;
+    cursor: pointer;
+    transition: .5s;
+    background-color: var(--blue);
+    border: none;
+    color: var(--white);
+    font-size: 16px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.product_box:hover button {
+    position: relative;
+    top: 0px;
+    opacity: 1;
+    transition: .5s;
+}
+
+.product_box:hover .product_heart_icon {
+    position: relative;
+    top: 0px;
+    opacity: 1;
+    z-index: 20px;
+    transition: .3s;
+}
+
+.product_box:hover img {
+    transition: transform .5s ease;
+    transform: scale(1.1);
+}
+
+.products_tags {
+    color: red;
+    padding: 15px;
+}
+
+.product_heart_tags {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product_heart_icon {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    opacity: 0;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.products_img {
+    background-color: transparent;
+    mix-blend-mode: multiply;
+
+}

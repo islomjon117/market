@@ -1,0 +1,340 @@
+.navbar {
+    border-bottom: 0.5px solid var(--grey);
+    width: 100%;
+}
+
+.nav_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid var(--grey);
+    background-color: var(--white);
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    max-width: 1400px;
+    top: 34.5px;
+}
+
+.navbar_links {
+    text-transform: capitalize;
+}
+
+.nav_left {
+    display: flex;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.nav_manu {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: flex;
+    margin-left: 18px;
+    gap: 20px;
+    color: var(--black_2);
+    cursor: pointer;
+
+    font-weight: 400;
+    font-size: 15.5px;
+}
+
+.nav_center_logo {
+    width: 113px;
+    height: 80px;
+    margin-right: 280px;
+}
+
+.nav_right {
+    display: flex;
+    gap: 35px;
+    padding: 12px;
+    margin-right: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.heart,
+.bag_icon a {
+    color: var(--black);
+}
+
+.search_icon {
+    gap: 20px;
+}
+
+.nav_menu_bar {
+    position: absolute;
+    left: 0;
+    top: 116px;
+    width: 100%;
+    height: calc(100vh - 116px);
+}
+
+.nav_menu_bar_top {
+    position: fixed;
+    width: 100%;
+    height: 400px;
+    background: var(--white);
+    z-index: 1;
+}
+
+.nav_menu_bar_bottom {
+    position: fixed;
+    backdrop-filter: 5px;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: calc(100% - 500px);
+    margin-top: 400px;
+    z-index: 1;
+}
+
+.nav_dynemic {
+    transform: scaleZ(0);
+}
+
+.nav_search_bar {
+    position: absolute;
+    left: 0;
+    top: 35px;
+    width: 100%;
+    height: calc(100vh - 116px);
+    position: fixed;
+    z-index: 20;
+}
+
+.nav_search_main {
+    width: 100%;
+    height: 480px;
+    background: var(--white);
+}
+
+.nav_search_bar_bottom {
+    position: absolute;
+    backdrop-filter: 5px;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: calc(100%);
+}
+
+.search_dynemic {
+    transform: scaleZ(0);
+}
+
+.input_search {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.input_search input {
+    width: 75%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    padding-left: 50px;
+    margin-left: 0px;
+    font-size: 20px;
+    color: var(--black_2);
+}
+
+.close_btn {
+    background-color: var(--white);
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.popular_searching {
+    margin-top: 40px;
+}
+
+.popular_search_title {
+    margin-left: 145px;
+    font-size: 14px;
+}
+
+.popular_search_body {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.popular_search_body button {
+    width: 8%;
+    height: 30px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    color: var(--grey);
+    background-color: var(--grey_btn);
+}
+
+.recently_searched_title {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+
+.recently_searched {
+    color: var(--black_2);
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.remove_history {
+    margin-left: 500px;
+    color: var(--grey);
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.recently_searched_body {
+    margin-left: 144px;
+}
+
+.recently_searched_body button {
+    width: 4%;
+    height: 30px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    color: var(--grey);
+    background-color: var(--grey_btn);
+}
+
+.recently_searched_body .watch_series {
+    width: 10.5%;
+    height: 30px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    color: var(--grey);
+    background-color: var(--grey_btn);
+    margin-left: 15px;
+}
+
+.login_modal_bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 20;
+}
+
+.login_modal {
+    padding: 30px;
+    max-width: 950px;
+    height: auto;
+    margin: 200px auto;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.login_modal p {
+    font-size: 30px;
+}
+
+.login_close_btn {
+    display: flex;
+    justify-content: end;
+}
+
+.login_close_btn button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: none;
+    font-size: 30px;
+}
+
+.login_title p {
+    text-align: center;
+    font-size: 50px;
+}
+
+.login_google_btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.login_google_btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 60px;
+    border-radius: 8px;
+    gap: 8px;
+    border: none;
+    background-color: var(--black);
+}
+
+.login_google_btn button>b {
+    font-size: 45px;
+    margin-top: 7px;
+}
+
+
+.login_google_btn button>p {
+    font-size: 20px;
+    line-height: 19.6px;
+    color: var(--white);
+    letter-spacing: 1px;
+}
+
+.login_or h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.telegram_github_btn {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.telegram_github_btn button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: 1px;
+    width: 290px;
+    height: 55px;
+    margin-top: 30px;
+    border-radius: 8px;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.telegram_github_btn button>b {
+    font-size: 35px;
+}
+
+.telegram {
+    color: #3EADFF;
+}
+
+.telegram_btn {
+    border: 1px solid #3EADFF;
+    background: transparent;
+    color: #3EADFF;
+}

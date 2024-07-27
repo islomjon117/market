@@ -1,0 +1,29 @@
+.card_main{
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    background-color: var(--grey_btn);
+}
+
+.card_main_img{
+    margin-left: 100px;
+}
+
+.card_main_title_body{
+    text-align: center;
+    margin-right: 100px;
+}
+
+.card_main_title{
+    font-size: 24px;
+    color: var(--grey);
+}
+
+.card_main_body{
+    font-size: 40px;
+    margin-top: 20px;
+}

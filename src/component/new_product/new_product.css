@@ -1,0 +1,37 @@
+.new_product_main_mp4 {
+    height: 550px;
+    margin-top: 50px;
+}
+
+.new_product_main_mp4 video {
+    width: 100%;
+}
+
+.new_product_main_title {
+    text-align: center;
+    color: var(--white);
+    font-size: 64px;
+    font-weight: 400;
+    margin-top: -170px;
+}
+
+.new_product_main_body {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--white);
+    margin-top: 25px;
+}
+
+.new_product_button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.new_product_button button{
+    width: 205px;
+    height: 60px;
+    background: none;
+    color: var(--white);
+    border: 1px solid var(--white);
+}

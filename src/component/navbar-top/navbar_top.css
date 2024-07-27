@@ -1,0 +1,76 @@
+.nav_top{
+    background-color: var(--black);
+    height: 35px;
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+}
+
+.nav_top_main{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--grey);
+}
+
+.custom-select {
+  position: relative;
+  z-index: 1; /* Yuqoridagi elementlardan ustunlashishi uchun */
+}
+
+.custom-select {
+    position: relative;
+    width: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .select-header {
+    cursor: pointer;
+  }
+  
+  
+  .arrow-icon {
+    margin-left: 8px;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .custom-select.open .arrow-icon {
+    transform: rotate(180deg);
+  }
+  
+  .options {
+    display: none;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -15px;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border: 1px solid var(--blue);
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .custom-select.open .options {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .option {
+    padding: 12px;
+    cursor: pointer;
+    z-index: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .option:hover {
+    background-color: #3498db;
+    color: #fff;
+  }

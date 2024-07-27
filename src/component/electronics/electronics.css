@@ -1,0 +1,34 @@
+.electronics_main{
+    margin-top: 50px;
+    display: block;
+    flex-direction: column;
+}
+
+.electronics_main_title{
+    font-size: x-large;
+}
+
+.electronics_products{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.electronics_product_title{
+    margin-top: 20px;
+    font-size: 24px;
+    letter-spacing: 2.5%;
+}
+
+.electronics_product_img img{
+    width: 430px;
+    height: 430px;
+    transition: transform .3s ease;
+    
+}
+
+.electronics_product_img:hover img {
+    transition: transform .3s ease;
+    transform: scale(1.1);
+}

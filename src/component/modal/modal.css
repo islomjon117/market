@@ -1,0 +1,119 @@
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 20;
+}
+
+.modal {
+    padding: 30px;
+    max-width: 950px;
+    height: 680px;
+    margin: 200px auto;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.modal_title h1 {
+    text-align: center;
+    color: var(--blue);
+    font-size: 36px;
+}
+
+.modal_close_btn {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    margin-left: 860px;
+    cursor: pointer;
+}
+
+.modal_submtitle h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.modal_random_products1 {
+    display: flex;
+    gap: 5px;
+}
+
+
+.modal_random_products_box h1,
+.modal_random_products_box {
+    width: 650px;
+    height: 330px;
+    max-height: 330px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.modal_img {
+    position: relative;
+    width: 100%;
+    max-width: 200px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.modal_img img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    padding: 20px;
+    margin-top: -50px;
+}
+
+.modal_random_products_box p {
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+}
+
+.subtitle {
+    text-decoration: underline;
+}
+
+.prise {
+    margin-top: 2px;
+}
+
+.view_all_btn {
+    max-width: 330px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    color: var(--white);
+    background-color: var(--blue);
+    font-size: 16px;
+    font-weight: 500;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin-left: 280px;
+    margin-top: 70px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: .4s;
+}
+
+.view_all_btn:hover {
+    background-color: transparent;
+    color: var(--black);
+    border: 1px solid;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.heart_icon1 {
+    opacity: 1;
+    text-align: end;
+    padding: 10px;
+    font-size: 20px;
+}
